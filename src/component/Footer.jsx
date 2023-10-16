@@ -1,17 +1,14 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="content has-text-centered is-gray">
-        <p>
-        <img src="../img/Injobs.png" alt="injobs" width="50px" height="10px" margin ="10px" color="black"/>
-          <a href="">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed{" "}
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY NC SA 4.0 </a>
-        </p>
+    <div className="footer">
+    <div class="bg-light">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
       </div>
-    </footer>
+    </div>
+    </div>
   );
 };
 

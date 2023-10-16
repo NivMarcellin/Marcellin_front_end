@@ -29,7 +29,7 @@ const Signin = () => {
         </div>
         <div class="field">
           <p class="control">
-            <button class="button is-success">identifier</button>
+            <button class="button">identifier</button>
           </p>
         </div>
       </div>

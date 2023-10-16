@@ -9,13 +9,19 @@
 .job {
   margin-top: 10vh;
 }
-footer.footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    color: white;
+    background-color: black;
     text-align: center;
     height: 0;
+    position: absolute;
   }
-  
+
+  .bg-light{
+    width: 100vw;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+  }
