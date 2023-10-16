@@ -27,10 +27,17 @@ const Signin = () => {
             </span>
           </p>
         </div>
+        <div className="identifier">
+        <label class="checkbox">
+            <input type="checkbox"/>
+            Remember me
+          </label>
         <div class="field">
           <p class="control">
             <button class="button">identifier</button>
           </p>
+          
+        </div>
         </div>
       </div>
       <Footer />
