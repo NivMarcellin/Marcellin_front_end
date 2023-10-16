@@ -1,0 +1,21 @@
+.info :not(:last-child) {
+  margin-right: 20px;
+}
+.contenu {
+  margin-top: 3vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.job {
+  margin-top: 10vh;
+}
+footer.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 0;
+  }
+  
