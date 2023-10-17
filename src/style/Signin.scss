@@ -1,12 +1,22 @@
 .content1{
     height: 20vh;
     width: 100vw;
-    background-color: black;
 }
 
-.sign{
+
+.component{
+    box-shadow: rgba(255,140,0) 0px 10px 55px, rgba(255,140,0) 0px -12px 30px, rgba(255,140,0) 0px 4px 6px, rgba(255,140,0) 0px 12px 13px, rgba(255,140,0) 0px -3px 5px;
     margin-left: 30vw;
     margin-right: 30vw;
+    height: 60vh;
+    justify-content: center;
+}
+.sign{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .button{
     background: orange;
@@ -16,6 +26,10 @@
 .identifier{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+.texte{
+    justify-content: center;
 }
 
 

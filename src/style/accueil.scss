@@ -1,5 +1,5 @@
 .content{
-    height: 30vh;
+    height: 20vh;
     width: 100vw;
 }
 .choose :not( :last-child){
@@ -10,15 +10,17 @@
     margin-top: 50px;
 }
 .composent{
-    background-color: black;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 100vh;
+    box-shadow: rgba(255,140,0) 0px 10px 55px, rgba(255,140,0) 0px -12px 30px, rgba(255,140,0) 0px 4px 6px, rgba(255,140,0) 0px 12px 13px, rgba(255,140,0) 0px -3px 5px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 60vh;
 }
 .childcomposent{
     margin-top: -15vh;
-}
+}   
 
 .button{
     background: orange;
     border-color: black;
 }
+
